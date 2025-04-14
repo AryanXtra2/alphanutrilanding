@@ -3,72 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AlphaNUTRI – Pure Indian Protein</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>AlphaNutri - Protein You Can Trust</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .main-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .product-info {
+      max-width: 400px;
+      margin: 1rem;
+    }
+    .product-info h2 {
+      color: #444;
+    }
+    .product-image {
+      max-width: 300px;
+      margin: 1rem;
+    }
+    .product-image img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-<body class="bg-white text-gray-800 font-sans">
-  <header class="bg-green-600 text-white p-6 shadow-md">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">AlphaNUTRI</h1>
-      <nav class="space-x-4">
-        <a href="#" class="hover:underline">Home</a>
-        <a href="#about" class="hover:underline">About</a>
-        <a href="#products" class="hover:underline">Products</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-      </nav>
-    </div>
+<body>
+
+  <header>
+    <h1>AlphaNutri</h1>
+    <p class="tagline">Affordable, Transparent, Indian-made Protein</p>
   </header>
 
-  <section class="bg-gray-50 py-20">
-    <div class="max-w-5xl mx-auto text-center px-4">
-      <h2 class="text-4xl font-extrabold mb-4">Pure, Transparent, Indian-made Protein</h2>
-      <p class="text-lg mb-6">Affordable, clean protein powders made for the Indian lifestyle. Backed by transparency and trust.</p>
-      <a href="#products" class="bg-green-600 text-white px-6 py-3 rounded-full text-lg hover:bg-green-700 transition">Explore Products</a>
+  <div class="main-section">
+    <div class="product-image">
+      <img src="WhatsApp Image 2025-04-01 at 16.13.33_233ef686.jpg" alt="AlphaNutri Protein Powder" />
     </div>
-  </section>
-
-  <section id="about" class="py-16 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-4">Why AlphaNUTRI?</h3>
-      <p class="text-gray-600 text-md">
-        We’re solving the trust gap in India’s protein market by offering affordable, locally-produced supplements with complete ingredient transparency. Made for health-conscious Indians.
-      </p>
+    <div class="product-info">
+      <h2>Chocolate Protein Powder</h2>
+      <p>25g Protein | 5g BCAAs | 120 Calories</p>
+      <p>100% locally sourced. Transparent ingredients. Boost your fitness with affordable, high-quality protein powder made for Indian bodies.</p>
     </div>
-  </section>
+  </div>
 
-  <section id="products" class="bg-gray-100 py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h3 class="text-3xl font-bold text-center mb-10">Our Products</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-xl shadow text-center">
-          <h4 class="text-xl font-semibold mb-2">Whey Protein – Classic</h4>
-          <p class="text-gray-600 mb-4">High-protein, easy-digest blend with no added sugar. Rs. 1900 / 1kg</p>
-          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Buy Now</button>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow text-center">
-          <h4 class="text-xl font-semibold mb-2">Plant Protein – Vegan Blend</h4>
-          <p class="text-gray-600 mb-4">Perfect for vegetarians, with clean ingredients and a smooth taste. Rs. 1800 / 1kg</p>
-          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Buy Now</button>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow text-center">
-          <h4 class="text-xl font-semibold mb-2">Mass Gainer – Balanced Nutrition</h4>
-          <p class="text-gray-600 mb-4">For serious gains. High calories with clean protein and carbs. Rs. 2000 / 1.5kg</p>
-          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Buy Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="bg-white py-12">
-    <div class="max-w-3xl mx-auto text-center">
-      <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
-      <p class="mb-6 text-gray-600">Have questions or want to become a reseller? Drop us a message.</p>
-      <a href="mailto:contact@alphanutri.in" class="text-green-600 underline">contact@alphanutri.in</a>
-    </div>
-  </section>
-
-  <footer class="bg-gray-800 text-white py-6 text-center">
-    <p>&copy; 2025 AlphaNUTRI. All rights reserved.</p>
+  <footer>
+    &copy; 2025 AlphaNutri. All rights reserved.
   </footer>
+
 </body>
 </html>
